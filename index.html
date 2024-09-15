@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dente Clean</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu,#logo').localScroll({
+                target:'body'
+            });
+        });
+    </script>
+		
+    
+</head>
+<body>
+    
+    <header id="topo">
+                        
+        <div class="total">
+            <div id="logo">
+                <a href="#home"><img src="img/logo.png" alt=""></a>
+            </div>
+
+            <nav id="menu">
+                <a href="#home">Home</a>
+                <a href="#quemsomos">Quem Somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <div class="total">
+        
+        <div class="conteudo" id="home">
+            
+            <img src="img/img-home.jpg" alt="" class="left">
+            
+            <article id="conteudo-home">
+                <h1>ODONTOLOGIA É AQUI!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare.</p>
+
+                <p>Nulla sed urna erat, non posuere urna. Proin tempor consectetur auctor. Aenean auctor aliquet sagittis. Sed vehicula enim at nulla adipiscing eu rhoncus nisl vehicula.</p>
+                
+                <img src="img/img-home-crianca.jpg" alt="">
+                <img src="img/img-home-casal.jpg" alt="">
+                <img src="img/img-home-paciente.jpg" alt="">
+            </article>
+            <!--<div class="clearfix"></div>-->
+        </div>
+        
+        
+        <!--QUEM SOMOS-->
+        <article class="conteudo" id="quemsomos">
+            
+            <h2>QUEM SOMOS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lacinia sed ligula sed, congue varius orci. Donec eget est ultricies, facilisis sapien ac, placerat ipsum. Nullam lobortis, ex a molestie porttitor, lacus quam finibus magna, a fermentum mi urna ut augue. Duis sodales dapibus eleifend. Aenean malesuada, tellus nec vestibulum vehicula, tellus lectus porta nunc, nec lobortis tortor. Sed eu justo pharetra, ultrices metus ullamcorper, tincidunt dolor.</p>
+            
+            <img src="img/img-quemsomos.jpg" alt="">
+            
+        </article>
+        
+        <!--NOSSOS SERVIÇOS-->
+        <article class="conteudo" id="servicos">
+            <h2>NOSSOS SERVIÇOS</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare. Donec massa purus, egestas eu ante varius, consequat sollicitudin libero.</p>
+                                    
+            <img src="img/img-servicos.jpg" alt="" class="right">
+            
+            <ul>
+                <li><strong>ETIAM VARIUS:</strong> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.</li>
+                
+                <li><strong>ETIAM VARIUS:</strong> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.</li>
+                
+                <li><span class="negrito">ETIAM VARIUS:</span> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.</li>
+                                       
+            </ul>
+            
+        </article>
+        
+        <!--CONTATO-->
+        <article class="conteudo" id="contato">
+            <h2>CONTATO</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lacinia sed ligula sed, congue varius orci. Donec eget est ultricies, facilisis sapien ac, placerat ipsum. Nullam lobortis, ex a molestie porttitor, lacus quam finibus magna, a fermentum mi urna.</p>
+             
+            <iframe class="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.156757995045!2d-43.17863598546831!3d-22.90758824365772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6065c269d9%3A0xb4175b60255470f2!2sAv.+Rio+Branco%2C+185+-+Centro%2C+Rio+de+Janeiro+-+RJ%2C+20040-007!5e0!3m2!1spt-BR!2sbr!4v1470237947771" width="530" height="300" style="border:0" allowfullscreen></iframe>            
+                                              
+            <form>
+               
+                <label>
+                    Nome:<br>
+                    <input type="text" placeholder="Digite seu nome">
+                </label>   
+                
+                <br>
+                
+                <label>
+                    E-mail:<br>
+                    <input type="text" placeholder="Digite seu e-mail">
+                </label>
+                
+                <br>
+                
+                <label>
+                    Mensagem:<br>
+                    <textarea></textarea>                    
+                </label>
+                
+                <br>
+                
+                <input type="submit" value="Enviar">
+                <!--<input type="reset" value="Limpar">-->
+            </form>
+            
+        </article>
+        
+        <footer id="rodape">
+            DenteClean - Todos os direitos reservados.
+        </footer>
+        
+    </div>
+    
+</body>
+</html>
